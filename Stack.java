@@ -1,16 +1,4 @@
 
-public class Main
-{
-	public static void main(String[] args) {
-	   Stack stc = new Stack(10); 
-	   stc.push(5);
-	   stc.push(10);
-	   stc.push(15);
-	   System.out.println(stc.pop());
-	   System.out.println(stc.pop());
-	}
-}
-
 class Stack {
     int[] arr;
     int top;
@@ -46,5 +34,14 @@ class Stack {
         if(top < 1) return true;
         else return false;
     }
+
+	public static void main(String[] args) {
+	   Stack stc = new Stack(10); 
+	   stc.push(5);
+	   stc.push(10);
+	   stc.push(15);
+	   System.out.println(stc.pop());
+	   System.out.println(stc.pop());
+	}
     
 }

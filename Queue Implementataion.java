@@ -1,3 +1,4 @@
+// Queue Implementation 
 class Queue {
     int front,rear,size;
     int capacity;
@@ -51,9 +52,7 @@ class Queue {
         }
         System.out.println();
     }
-}
-
-class Main {
+    
     public static void main(String[] args) {
         Queue qu = new Queue(10);
         qu.enqueue(10);
@@ -67,3 +66,4 @@ class Main {
         
     }
 }
+
